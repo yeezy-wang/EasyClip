@@ -1,0 +1,28 @@
+# Xcode
+*.xcuserdata
+*.xcworkspace/xcuserdata
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+DerivedData/
+build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+!default.pbxuser
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift
+.swiftpm/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App
+*.app
+*.dmg
+
+# Cocoapods
+Pods/

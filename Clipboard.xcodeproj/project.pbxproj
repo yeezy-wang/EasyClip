@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 54;
+	objects = {
+
+		48E6A7F4EAC45D5F42816929 = {isa = PBXBuildFile; fileRef = AA9285871747E5FDEC985686; };
+		A8E1E23A4DAF56DD0A27C5AE = {isa = PBXBuildFile; fileRef = D6EF09D102DD7D168F0ED7BF; };
+		CB09D33301B6F413BB4EF6B9 = {isa = PBXBuildFile; fileRef = FF681056B7335319570167F2; };
+		2AA94ACCA008A942B5508E21 = {isa = PBXBuildFile; fileRef = A85666FA892038CD6F29FDBB; };
+		954BAF441C17B6CDC2ADEB3A = {isa = PBXBuildFile; fileRef = 11C4E0AB66CA79898A525EA2; };
+		7086BA570B8F7097CE76FCA7 = {isa = PBXBuildFile; fileRef = 8965588A58EE883AD85EC362; };
+		5F8373DA24280A34BA2F0B62 = {isa = PBXBuildFile; fileRef = D844BADB338C9A269ECE30D9; };
+		B939FA7933A32BCC7FA4E35A = {isa = PBXBuildFile; fileRef = 8E31E66F11F10A378377235C; };
+		A68684E5881C63A9FCFFCAEC = {isa = PBXBuildFile; fileRef = 377D11C61FEEB8907AEABDC6; };
+		CF6B4A82E68C3E1905787093 = {isa = PBXBuildFile; fileRef = 58F84572625F46B3F7781CF1; };
+		CA46C6802D682696782041AF = {isa = PBXBuildFile; fileRef = EF1CACC62146E339ED8B8F49; };
+		A891FD2167194DFDC5BE8C3B = {isa = PBXBuildFile; fileRef = E9B8C9557BE5A381C92EAC46; };
+		874EFF62A79E656DFC10C436 = {isa = PBXBuildFile; fileRef = FA077FD682C7769AD062006D; };
+		68266CBA7424C86BEA19C686 = {isa = PBXBuildFile; fileRef = 6C6083B6E30AE424C773D897; };
+		9260AC0C2C935D0EF5F8B4BB = {isa = PBXBuildFile; fileRef = 8AC5D724D9FC8B29C777F436; };
+		E9644CE8E6F554B80C2AEFC4 = {isa = PBXBuildFile; fileRef = 6E4EA20BBE0B56F6039D4020; };
+		13392EEB05984AC49A0D5CD6 = {isa = PBXBuildFile; fileRef = 71DB4D75028A6158A6C1842F; };
+		DAECEC31D3B5D5E59F88E5F0 = {isa = PBXBuildFile; fileRef = F818C9AC8BC8943D71A45DFD; };
+		5080310502EF16CC81DA7FE1 = {isa = PBXBuildFile; fileRef = 5BA505DB80541147E7C67F08; };
+		CE6BE621CD6CB54FB881709D = {isa = PBXBuildFile; fileRef = 59AB6EB26844E23DF815B94D; };
+		6172BEBBFD7F65BF0F626778 = {isa = PBXBuildFile; fileRef = F81D2758F77BE9993C164720; };
+		35348E99C83A8B8B42A1DE80 = {isa = PBXBuildFile; fileRef = 6AC5686F7A4FE4D036BDA084; };
+		B752E0AD060ACE8C581918B7 = {isa = PBXBuildFile; fileRef = F07DE4FBED6AD3D1462FBA74; };
+		C6CC0AD998171D764A280D4E = {isa = PBXBuildFile; fileRef = A91A4D79A27B953B91DFCE35; };
+
+		AA9285871747E5FDEC985686 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "main.swift"; sourceTree = "<group>"; };
+		D6EF09D102DD7D168F0ED7BF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift"; sourceTree = "<group>"; };
+		FF681056B7335319570167F2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentType.swift"; sourceTree = "<group>"; };
+		A85666FA892038CD6F29FDBB = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		11C4E0AB66CA79898A525EA2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8965588A58EE883AD85EC362 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersistenceController.swift"; sourceTree = "<group>"; };
+		D844BADB338C9A269ECE30D9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardMonitor.swift"; sourceTree = "<group>"; };
+		8E31E66F11F10A378377235C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RetentionManager.swift"; sourceTree = "<group>"; };
+		377D11C61FEEB8907AEABDC6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoStartManager.swift"; sourceTree = "<group>"; };
+		58F84572625F46B3F7781CF1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardViewModel.swift"; sourceTree = "<group>"; };
+		EF1CACC62146E339ED8B8F49 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBarView.swift"; sourceTree = "<group>"; };
+		E9B8C9557BE5A381C92EAC46 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardCardView.swift"; sourceTree = "<group>"; };
+		FA077FD682C7769AD062006D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		6C6083B6E30AE424C773D897 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FooterView.swift"; sourceTree = "<group>"; };
+		8AC5D724D9FC8B29C777F436 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		6E4EA20BBE0B56F6039D4020 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		71DB4D75028A6158A6C1842F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorTheme.swift"; sourceTree = "<group>"; };
+		F818C9AC8BC8943D71A45DFD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Relative.swift"; sourceTree = "<group>"; };
+		5BA505DB80541147E7C67F08 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageResizer.swift"; sourceTree = "<group>"; };
+		59AB6EB26844E23DF815B94D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SystemIcon.swift"; sourceTree = "<group>"; };
+		F81D2758F77BE9993C164720 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		6AC5686F7A4FE4D036BDA084 = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = "ClipboardDataModel.xcdatamodeld"; sourceTree = "<group>"; };
+		F07DE4FBED6AD3D1462FBA74 = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "AppIcon.icns"; sourceTree = "<group>"; };
+		A91A4D79A27B953B91DFCE35 = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar_icon.png"; sourceTree = "<group>"; };
+		3EB4B42563E1790C617AFAF0 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		5FEC2E07DAF625DACA072F01 = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "EasyClip.app"; sourceTree = "BUILT_PRODUCTS_DIR"; };
+
+		5237B6C043D13B31D6ADEC26 = {isa = PBXGroup; children = (71DB4D75028A6158A6C1842F, F818C9AC8BC8943D71A45DFD, 5BA505DB80541147E7C67F08, 59AB6EB26844E23DF815B94D); name = "Helpers"; path = "Helpers"; sourceTree = "<group>"; };
+		8BB0A2457955C6A60E3EDCF0 = {isa = PBXGroup; children = (6E4EA20BBE0B56F6039D4020); name = "Settings"; path = "Settings"; sourceTree = "<group>"; };
+		CF56B9807B42703221C606B4 = {isa = PBXGroup; children = (EF1CACC62146E339ED8B8F49, E9B8C9557BE5A381C92EAC46, FA077FD682C7769AD062006D, 6C6083B6E30AE424C773D897, 8AC5D724D9FC8B29C777F436, 8BB0A2457955C6A60E3EDCF0); name = "Views"; path = "Views"; sourceTree = "<group>"; };
+		22A430E9A35DA8AEEB1C7A65 = {isa = PBXGroup; children = (FF681056B7335319570167F2, A85666FA892038CD6F29FDBB, 11C4E0AB66CA79898A525EA2); name = "Models"; path = "Models"; sourceTree = "<group>"; };
+		B4896FFE0D9007BF5CCBEBC1 = {isa = PBXGroup; children = (8965588A58EE883AD85EC362, D844BADB338C9A269ECE30D9, 8E31E66F11F10A378377235C, 377D11C61FEEB8907AEABDC6); name = "Services"; path = "Services"; sourceTree = "<group>"; };
+		0A0E6E41224E91EAFB6F45A8 = {isa = PBXGroup; children = (58F84572625F46B3F7781CF1); name = "ViewModels"; path = "ViewModels"; sourceTree = "<group>"; };
+		26E441C95DF9FB9123C08918 = {isa = PBXGroup; children = (AA9285871747E5FDEC985686, D6EF09D102DD7D168F0ED7BF, 3EB4B42563E1790C617AFAF0, 22A430E9A35DA8AEEB1C7A65, B4896FFE0D9007BF5CCBEBC1, 0A0E6E41224E91EAFB6F45A8, CF56B9807B42703221C606B4, 5237B6C043D13B31D6ADEC26, F81D2758F77BE9993C164720, 6AC5686F7A4FE4D036BDA084, F07DE4FBED6AD3D1462FBA74, A91A4D79A27B953B91DFCE35); name = "Clipboard"; path = "Clipboard"; sourceTree = "<group>"; };
+		1851A3C12905187F0F633543 = {isa = PBXGroup; children = (26E441C95DF9FB9123C08918, 5FEC2E07DAF625DACA072F01); sourceTree = "<group>"; };
+
+		39CBB80239C4607964ACEB9A = {isa = PBXNativeTarget; buildConfigurationList = E836BA548B3D799F5E6C2530; buildPhases = (F93730DE8454DF802BB10344, 7EAEC6920DB709A4C77A2F17, 9FF55970AA822286C6B966AD); buildRules = (); dependencies = (); name = EasyClip; productName = EasyClip; productReference = 5FEC2E07DAF625DACA072F01; productType = "com.apple.product-type.application"; };
+
+		5CD759D4193846E4910FD9BB = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1200; LastUpgradeCheck = 1200; ORGANIZATIONNAME = EasyClip;}; buildConfigurationList = 5B2D1F3FD5ADF7B79ED57498; compatibilityVersion = "Xcode 12.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, "zh-Hans"); mainGroup = 1851A3C12905187F0F633543; productRefGroup = 1851A3C12905187F0F633543; projectDirPath = ""; projectRoot = ""; targets = (39CBB80239C4607964ACEB9A); };
+
+		F93730DE8454DF802BB10344 = {isa = PBXSourcesBuildPhase; files = (
+48E6A7F4EAC45D5F42816929,
+A8E1E23A4DAF56DD0A27C5AE,
+CB09D33301B6F413BB4EF6B9,
+2AA94ACCA008A942B5508E21,
+954BAF441C17B6CDC2ADEB3A,
+7086BA570B8F7097CE76FCA7,
+5F8373DA24280A34BA2F0B62,
+B939FA7933A32BCC7FA4E35A,
+A68684E5881C63A9FCFFCAEC,
+CF6B4A82E68C3E1905787093,
+CA46C6802D682696782041AF,
+A891FD2167194DFDC5BE8C3B,
+874EFF62A79E656DFC10C436,
+68266CBA7424C86BEA19C686,
+9260AC0C2C935D0EF5F8B4BB,
+E9644CE8E6F554B80C2AEFC4,
+13392EEB05984AC49A0D5CD6,
+DAECEC31D3B5D5E59F88E5F0,
+5080310502EF16CC81DA7FE1,
+CE6BE621CD6CB54FB881709D,
+		); };
+
+		7EAEC6920DB709A4C77A2F17 = {isa = PBXResourcesBuildPhase; files = (
+6172BEBBFD7F65BF0F626778,
+35348E99C83A8B8B42A1DE80,
+B752E0AD060ACE8C581918B7,
+C6CC0AD998171D764A280D4E,
+		); };
+
+		9FF55970AA822286C6B966AD = {isa = PBXFrameworksBuildPhase; files = (); };
+
+		4F819B6C217A5FDFE1321AB2 = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++14"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; GCC_DYNAMIC_NO_PIC = NO; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); ARCHS = "arm64 x86_64"; MACOSX_DEPLOYMENT_TARGET = 10.15; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; }; name = Debug; };
+
+		DB11B3A92C3A0037A987056E = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++14"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_OPTIMIZATION_LEVEL = s; ARCHS = "arm64 x86_64"; MACOSX_DEPLOYMENT_TARGET = 10.15; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; }; name = Release; };
+
+		B9CFBE573C4FC7D25DDCBFE7 = {isa = XCBuildConfiguration; buildSettings = { ARCHS = "arm64 x86_64"; ONLY_ACTIVE_ARCH = NO; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; INFOPLIST_FILE = Clipboard/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.clipboard.history; PRODUCT_NAME = EasyClip; EXECUTABLE_NAME = EasyClip; SWIFT_VERSION = 5.0; }; name = Debug; };
+
+		003FE328D61781D95707DAAA = {isa = XCBuildConfiguration; buildSettings = { ARCHS = "arm64 x86_64"; ONLY_ACTIVE_ARCH = NO; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; INFOPLIST_FILE = Clipboard/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); PRODUCT_BUNDLE_IDENTIFIER = com.clipboard.history; PRODUCT_NAME = EasyClip; EXECUTABLE_NAME = EasyClip; SWIFT_VERSION = 5.0; }; name = Release; };
+
+		5B2D1F3FD5ADF7B79ED57498 = {isa = XCConfigurationList; buildConfigurations = (4F819B6C217A5FDFE1321AB2, DB11B3A92C3A0037A987056E); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+
+		E836BA548B3D799F5E6C2530 = {isa = XCConfigurationList; buildConfigurations = (B9CFBE573C4FC7D25DDCBFE7, 003FE328D61781D95707DAAA); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+
+	};
+	rootObject = 5CD759D4193846E4910FD9BB;
+}
