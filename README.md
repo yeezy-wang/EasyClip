@@ -17,6 +17,10 @@
   <img src="https://img.shields.io/badge/arch-arm64%20%7C%20x86__64-blue" alt="Arch">
 </p>
 
+<p align="center">
+  🌐 <a href="README.md">中文</a> · <a href="README.en.md">English</a>
+</p>
+
 ---
 
 ## 这是什么
